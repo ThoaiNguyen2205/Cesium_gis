@@ -1,0 +1,26 @@
+{
+  "asset": {
+    "version": "1.1"
+  },
+  "geometricError": 1024.0,
+  "root": {
+    "boundingVolume": {
+      "box": [0, 0, 0, 1000, 1000, 0.0, 0.0, 1000, 1000, 0.0, 0.0, 1000]
+    },
+    "geometricError": 512.0,
+    "refine": "ADD",
+    "children": [
+      {
+        "boundingVolume": {
+          "box": [0, 0, 0, 1000, 1000, 0.0, 0.0, 1000, 1000, 0.0, 0.0, 1000]
+        },
+        "geometricError": 0.0,
+        "contents": [
+          {
+            "uri": "gaso4.glb"
+          }
+        ]
+      }
+    ]
+  }
+}
