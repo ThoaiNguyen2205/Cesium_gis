@@ -26,6 +26,7 @@ const tileset = viewer.scene.primitives.add(
     debugShowGeometricError: false,
   })
 );
+
 // const tileset1 = viewer.scene.primitives.add(
 //   await Cesium.Cesium3DTileset.fromUrl(
 //     `https://hcm.s3storage.vn/gis/TPHCM-MocBai/HCMMB_Km1Km23/HCMMB_Km1Km23_CotDienV2/Tileset.json`,
@@ -60,23 +61,23 @@ const tileset = viewer.scene.primitives.add(
 //     }
 //   )
 // );
-const tileset2 = viewer.scene.primitives.add(
-  await Cesium.Cesium3DTileset.fromUrl(
-    `https://hcm.s3storage.vn/gis/XDCD-Binh%20Tien/PointCloud/tileset.json`,
-    {
-      debugShowBoundingVolume: false,
-      skipLevelOfDetail: true,
-      baseScreenSpaceError: 1024,
-      skipScreenSpaceErrorFactor: 16,
-      skipLevels: 0,
-      immediatelyLoadDesiredLevelOfDetail: false,
-      loadSiblings: false,
-      cullWithChildrenBounds: false,
-      maximumScreenSpaceError: 1,
-      debugShowGeometricError: false,
-    }
-  )
-);
+// const tileset2 = viewer.scene.primitives.add(
+//   await Cesium.Cesium3DTileset.fromUrl(
+//     `https://hcm.s3storage.vn/gis/XDCD-Binh%20Tien/PointCloud/tileset.json`,
+//     {
+//       debugShowBoundingVolume: false,
+//       skipLevelOfDetail: true,
+//       baseScreenSpaceError: 1024,
+//       skipScreenSpaceErrorFactor: 16,
+//       skipLevels: 0,
+//       immediatelyLoadDesiredLevelOfDetail: false,
+//       loadSiblings: false,
+//       cullWithChildrenBounds: false,
+//       maximumScreenSpaceError: 1,
+//       debugShowGeometricError: false,
+//     }
+//   )
+// );
 const offset = new Cesium.HeadingPitchRange(
   Cesium.Math.toRadians(90),
   Cesium.Math.toRadians(-90),
