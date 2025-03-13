@@ -13,7 +13,7 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 });
 
 const tileset = viewer.scene.primitives.add(
-  await Cesium.Cesium3DTileset.fromUrl(`./BinhTien01/tileset.json`, {
+  await Cesium.Cesium3DTileset.fromUrl(`./BinhTien11-3/tileset.json`, {
     debugShowBoundingVolume: false,
     skipLevelOfDetail: true,
     baseScreenSpaceError: 1024,
